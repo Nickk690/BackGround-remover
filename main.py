@@ -9,7 +9,7 @@ REMOVE_BG_API_KEY = "bR9uwjcWX92ae3xFZw5JaZUs"
 
 
 async def start(update: Update, context: CallbackContext):
-    await update.message.reply_text("Send me an image, and I'll remove the background!")
+    await update.message.reply_text("Send me an image, Nick will remove the background!")
 
 
 def remove_bg(image_path):
